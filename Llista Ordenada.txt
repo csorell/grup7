@@ -1,0 +1,23 @@
+PROVES DE CAPSA BLANCA
+·Si introduim valors al 1r array pero no al 2n, entrara al 1r for i no al 2n
+·Si introduim valors al 2n array pero no al 1r, entrara al 2n for i no al 1r
+·Si introduim valos als dos arrays, entrara als dos fors
+·Si no introduim valos a cap del dos arrays, no entrara a cap del dos fors
+
+
+PROVES DE CAPSA NEGRA
+CLASSES D'EQUIVALENCIA
+Nomes hi ha una clase d'equivalencia, he provat a introduir dues arrays d'integers.
+Mètodes que hem fet servir per la comprovació, testFusionaArraysClassesEquivalencia, testOrdenarArrayClassesEquivalencia
+
+
+ERRORS TIPICS
+He provat a introduir un null i com tenc un array de Integers no m'ho permet.
+Mètodes que hem fet servir per la comprovació, testFusionaArraysErrorsTipicsWithNull, testOrdenarArrayErrorsTipicsWithNull
+
+També he provat a introduir valors negatius, en aquest cas m'ho permet perque tenc un arrayList de Integers i accepta tant valors
+negatius com positius. Igual amb es valor 0.
+Mètodes que hem fet servir per la comprovació, testFusionaArraysErrorsTipicsWithNegativeValues, testOrdenarArrayErrorsTipicsWithNegativeValues
+
+També he provat a introduir un valor molt gran i com tenc un arrayList de Integers no me deixaria introduir arrays amb valors grosos.
+Mètodes que hem fet servir per la comprovació, testFusionaArraysErrorsTipicsWithLongValues, testOrdenarArrayErrorsTipicsWithLongValues

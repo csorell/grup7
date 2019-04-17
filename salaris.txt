@@ -1,0 +1,47 @@
+PROVES DE CAPSA BLANCA
+· tipo = encargado, ventasMes = 1250, horasExtra = 8, en el 1r metode entraria al 1r if i dels dos que conte
+entraria al 1r i del segon metode entraria al 2n if ja que el salaribrut seria 1760
+
+· tipo = encargado, ventasMes = 1500, horasExtra = 8, en el 1r metode entraria al 1r if i dels dos que conte
+entraria al 2n i del segon metode entraria al 2n if ja que el salaribrut seria 1860
+
+· tipo = encargado, ventasMes = 900, horasExtra = 8, en el 1r metode entraria al 1r if i dels dos que conte no
+entraria a cap dels dos i del segon metode entraria al 2n if ja que el salaribrut seria 1660
+
+tipo encargado sempre entrara en el segon if del segon metode ja que el minim salaribrut que reb es de 1500.
+
+· tipo = vendedor, ventasMes = 1250, horasExtra = 8, en el 1r metode entraria al 2n if i dels dos que conte
+entraria al 1r i del segon metode entraria al 1r if ja que el salaribrut seria 1260
+
+· tipo = vendedor, ventasMes = 1500, horasExtra = 20, en el 1r metode entraria al 2n if i dels dos que conte
+entraria al 2n i del segon metode entraria al 2n if ja que el salaribrut seria 1600
+
+· tipo = vendedor, ventasMes = 900, horasExtra = 8, en el 1r metode entraria al 2n if i dels dos que conte no
+entraria a cap dels dos i del segon metode entraria al 1r if ja que el salaribrut seria 1160
+
+· tipo = vendedor, ventasMes = 900, horasExtra = 30, en el 1r metode entraria al 2n if i dels dos que conte no
+entraria a cap dels dos i del segon metode entraria al 2n if ja que el salaribrut seria 1600
+
+tipo vendedor depenent del salari brut entrara al 1r o al 2n if del segon metode.
+
+· tipo = null, ventasMes = 900, horasExtra = 30, sortiria directament la excepcio
+
+· tipo = vendedor, ventasMes = -1, horasExtra = 30, sortiria directament la excepcio
+
+en el cas de que es trobes un null o un valor negatiu botaria la excepcio.
+
+
+
+PROVES DE CAPSA NEGRA
+CLASSES D'EQUIVALENCIA
+En aquest cas no ho hem pogut comprovar perque no hem sabut programar la excepcio, pero hi hauria dues
+clases d'equivalencia.
+
+
+ERRORS TIPICS
+En el cas de introduir un null m'hos hauria de retornar la excepcio.
+
+En el cas de introduir un valor negatiu tambe m'hos hauria de retornar la excepcio.
+
+He provat a introduir un valor molt gran i en aquest cas no me donaria cap error.
+Mètodes que hem fet servir per la comprovació, testCalculaSalarioBrutoWithLongValues, testCalculaSalarioNetoWithLongValues

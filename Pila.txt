@@ -1,0 +1,21 @@
+PROVES DE CAPSA BLANCA
+Son mètodes simples de manera que nomes entren o no en es mètode
+
+
+PROVES DE CAPSE NEGRA
+CLASSES D'EQUIVALENCIA
+Nomes hi ha una clase d'equivalencia, he provat a introduir un objecte string "hola"
+Mètodes que hem fet servir per la comprovació, testPushClaseEquivalencia, testPopClaseEquivalencia,
+testTopClaseEquivalencia, testIsEmptyWithInstances, testIsEmptyWithoutInstances
+
+
+ERRORS TIPICS
+He provat a introduir un null pero en aquest cas com tenc un array de objectes m'ho permet.
+Mètodes que hem fet servir per la comprovació, testPushErrorsTipicsWithNull, testPopErrorsTipicsWithNull,
+testTopErrorsTipicsWithNull, testIsEmptyErrorsTipicsWithNull
+
+En el cas de introduir valors negatius, m'ho permet perque tenc un arrayList de objectes i accepta tant valors negatius com positius. Igual amb es valor 0.
+
+També he provat a introduir un valor molt gran i igualment funciona correctament.
+Mètodes que hem fet servir per la comprovació, testPushErrorsTipicsWithLongValues, testPopErrorsTipicsWithLongValues,
+testTopErrorsTipicsWithLongValues, testIsEmptyErrorsTipicsWithLongValues
